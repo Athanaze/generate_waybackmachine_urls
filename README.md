@@ -2,7 +2,7 @@
 Generates wayback machine urls for each day starting from 2010
 
 ```dart
-var date = DateTime(2010);
+  var date = DateTime(2010);
   var generatedString = "";
   var target = "cnn.com";
   while (DateTime.now().isAfter(date)) {
